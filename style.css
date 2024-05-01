@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; /* Needed for absolute positioning */
+}
+
+#container {
+    position: relative; /* Container for proper positioning */
+    width: 100vw; /* Fill the viewport width */
+    height: 100vh; /* Fill the viewport height */
+}
+
+#myImage {
+    position: absolute; /* Allow absolute positioning for movement */
+    top: 50%; /* Center the image vertically initially */
+    left: 50%; /* Center the image horizontally initially */
+    transform: translate(-50%, -50%); /* Center the image using translate */
+    width: 10rem;
+    height: 10rem;
+}
