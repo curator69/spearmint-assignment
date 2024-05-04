@@ -28,7 +28,7 @@ function animateMovement(image, targetLeft, targetTop) {
   const currentTop = image.offsetTop;
   const deltaLeft = targetLeft - currentLeft;
   const deltaTop = targetTop - currentTop;
-  const animationDuration = 500;
+  const animationDuration = 1000;
 
   let startTime = null;
 
